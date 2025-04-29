@@ -1,0 +1,38 @@
+/* style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    transition: background-color 0.5s ease;
+}
+
+input[type="color"] {
+    width: 100px;
+    height: 50px;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: transparent;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
